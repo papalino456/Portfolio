@@ -8,6 +8,6 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + "/views/main.html")
 });
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 });
