@@ -1,3 +1,51 @@
 body {
-    background-color: lightblue;
+    background-color: #1f2f3a;
+    background-image: url("stacked-peaks-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1, h2{
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFFFFF;
+}
+.languages{
+    display: flex;
+    min-height: 275px;
+    justify-content: center;
+    align-items:flex-end;
+}
+.sus{
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.social{
+    display: flex;
+    min-height: 175px;
+    justify-content: center;
+    align-items:flex-end;
+}
+.sos{
+    height: 25px;
+    margin: 10px;
+}
+.custom-shape-divider-top-1622931184 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1622931184 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 196px;
+}
+
+.custom-shape-divider-top-1622931184 .shape-fill {
+    fill: #FFFFFF;
 }
