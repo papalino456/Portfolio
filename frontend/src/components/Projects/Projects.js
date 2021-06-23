@@ -9,9 +9,9 @@ const Projects = () => (
     <SectionDivider/>
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {{projects}.map((project) => (
+      {projects.map((project) => (
         <div>
-          {project}
+          {project.title}
         </div>
       ))}
     </GridContainer>
