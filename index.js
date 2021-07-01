@@ -11,6 +11,7 @@ app.use(express.static(path.join(__dirname, "frontend/out")));
 
 app.listen(process.env.PORT || port, () => {
   console.log(`Example app listening at port ${port}`);
+
 });
 
 app.get("/", function(req, res){
@@ -19,7 +20,7 @@ app.get("/", function(req, res){
 
 app.post("/button", function(req,res){
   data = req.body;
-  console.log(data.val);
+  console.log(data);
   res.end
 });
 
