@@ -21,7 +21,6 @@ app.get("/", function(req, res){
 app.post("/button", function(req,res){
   data = req.body;
   console.log(data);
-  res.end
 });
 
 app.get("/button", function(req,res){
