@@ -1,8 +1,8 @@
 export const projects = [
   {
     title: 'ISA',
-    description: "A sustainable and automatic greenhouse with a custom PCB that uses AI,embedded systems, server communications and API callings",
-      image: '/images/1.png',
+    description: "A sustainable and automatic greenhouse that uses AI and server communication",
+      image: '/images/ISA.png',
       tags: ['C++', 'TensorFlow', 'React Native', 'NodeJs'],
     source: 'https://github.com/papalino456/ISA',
     visit: 'http://sb-isa.herokuapp.com',
@@ -10,8 +10,8 @@ export const projects = [
   },
   {
     title: 'Python RayTracer',
-    description:"A simple image raytracer made with python",
-    image: '/images/2.png',
+    description:"A simple image raytracer made with python that features specular and difuse reflections",
+    image: '/images/test.png',
     tags: ['Python'],
     source: 'https://github.com/papalino456/RayTracer_Python',
     visit: 'https://github.com/papalino456/RayTracer_Python',
@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Covid Tracker',
     description: "A web app that keeps daily track of covid infections, deaths and recoveries making use of an API",
-      image: '/images/3.jpg',
+      image: '/images/covid.png',
       tags: ['React', "NodeJS","MaterialUI", "Axios"],
     source: 'https://github.com/papalino456/CovidTracker-mathdroAPI',
     visit: 'https://papalino456.github.io/CovidTracker-mathdroAPI/',
@@ -28,8 +28,8 @@ export const projects = [
   },
   {
     title: 'Conways Game of Life',
-    description: "My own implementation of Conway's game of life using Python and PyGame",
-    image: '/images/4.jpg',
+    description: "My own implementation of Conway's game of life using Python and PyGame made from scratch",
+    image: '/images/Conways.png',
     tags: ['Python', 'Pygame'],
     source: 'https://github.com/papalino456/ConwaysGameOfLife',
     visit: 'https://github.com/papalino456/ConwaysGameOfLife',

@@ -26,3 +26,7 @@ app.post("/button", function(req,res){
 app.get("/button", function(req,res){
   res.send(data);
 });
+
+app.get("/page", function(req, res){
+  res.send
+});
