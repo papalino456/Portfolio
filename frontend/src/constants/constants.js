@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Covid Tracker',
     description: "A web app that keeps daily track of covid infections, deaths and recoveries making use of an API",
-      image: '/images/covid.png',
+      image: '/images/Covid.png',
       tags: ['React', "NodeJS","MaterialUI", "Axios"],
     source: 'https://github.com/papalino456/CovidTracker-mathdroAPI',
     visit: 'https://papalino456.github.io/CovidTracker-mathdroAPI/',
@@ -38,27 +38,27 @@ export const projects = [
   {
     title: 'Primordial Particle System',
     description: "A cellular automata not limited to a grid, capable of forming cells, spores and other intricate forms",
-    image: '/images/4.jpg',
+    image: '/images/PPS.PNG',
     tags: ['Python', 'Pygame'],
-    source: 'https://github.com/papalino456/ConwaysGameOfLife',
-    visit: 'https://github.com/papalino456/ConwaysGameOfLife',
+    source: 'https://github.com/papalino456/PrimordialParticleSystem',
+    visit: 'https://github.com/papalino456/PrimordialParticleSystem',
     id: 4,
   },
   {
     title: 'Face Tracker',
     description: "An openCV recognition software communicated to an arduino 2 axis servo configuration to keep face centered on camera",
-    image: '/images/4.jpg',
+    image: '/images/tracker.PNG',
     tags: ['C++', "Python", 'OpenCV', "Arduino"],
-    source: 'https://github.com/papalino456/ConwaysGameOfLife',
-    visit: 'https://github.com/papalino456/ConwaysGameOfLife',
+    source: 'https://github.com/papalino456/Face_recognition_python-and_Arduino_tracker',
+    visit: 'https://github.com/papalino456/Face_recognition_python-and_Arduino_tracker',
     id: 5,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2010, text: 'Started my journey at 7 years old', },
+  { year: 2015, text: 'Went to my firt national robotics Tournament', },
+  { year: 2017, text: 'Won the International Robotics Championship Robocup', },
+  { year: 2019, text: 'Started teaching my own programming courses', },
+  { year: 2021, text: 'Currently in search of new challenges', },
 ];

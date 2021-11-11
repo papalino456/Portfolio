@@ -15,7 +15,7 @@ app.listen(process.env.PORT || port, () => {
 });
 
 app.get("/", function(req, res){
-  res.sendFile(path.join(__dirname, "frontend/wip.html"))
+  res.sendFile(path.join(__dirname, "frontend/out/index.html"))
 });
 
 app.post("/button", function(req,res){
