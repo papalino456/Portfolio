@@ -12,7 +12,7 @@ const Hero = (props) => (
         Sebastian Barrio
       </SectionTitle>
       <SectionText>
-        Im an 18 year old software developer centered in python, c++ and javascript
+        Im a software developer centered in python, c++ and javascript
       </SectionText>
       <Button onClick={()=> window.location = "#projects"}>Learn More</Button>
     </LeftSection>
